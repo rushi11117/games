@@ -1,0 +1,70 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    width: 72px;
+    height: 72px;
+    position: relative;
+  }
+  
+  .square-content {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 48px;
+  }
+  
+  .square-content.small {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  
+  .square-content.large {
+    font-size: 32px;
+    line-height: 48px;
+    height: 48px;
+    width: 48px;
+  }
+  
+  .hover-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #999;
+    z-index: 1;
+  }
+  
+  .board-row {
+    display: block;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-board {
+    margin-right: 20px;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  button.btn-outline-secondary {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,13 @@
+.square {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .square .hover-menu {
+    display: none;
+  }
+  
+  .square:hover .hover-menu {
+    display: flex;
+  }
+  
